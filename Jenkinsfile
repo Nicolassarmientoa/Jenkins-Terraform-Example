@@ -9,7 +9,7 @@ pipeline {
         'terraform' 'terraform'
     }
     environment {
-    DOCKER_CERT_PATH = credentials('tarea4')
+    DOCKER_CERT_PATH = credentials('admin')
     }
     stages {
         stage('clean workspace') {
